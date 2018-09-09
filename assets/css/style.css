@@ -1,0 +1,26 @@
+.btn  {
+  margin: 10px 10px 10px 0px;
+  background: -webkit-linear-gradient( rgb(255, 146, 57), yellow);
+  color: black;
+  border: white;
+  font-family: 'Roboto Mono', monospace;
+  }
+
+  body {
+    background: url(/restaurant.png);
+   
+  }
+
+  hr {
+    height: 3px;
+  }
+
+  p, h1 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 25px;
+  }
+
+  #title {
+    font-size: 40px;
+    margin-top: 10px;
+  }
