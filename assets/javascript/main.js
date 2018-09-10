@@ -52,7 +52,7 @@ $(document).ready(function() {
                     
                     gifImage.addClass("anImg");
 
-                    //need help only works for every other image
+                    
                     gifImage.attr("src", gif.images.fixed_height_still.url);
                     
                     gifImage.attr("data-still", gif.images.fixed_height_still.url);
@@ -68,19 +68,19 @@ $(document).ready(function() {
                     $("#images").append(imageDiv);
                     
                     
-                    $(".anImg").hover(function(){
-                        
-                        var state = $(this).attr('data-state');
-                        
-                        if (state === 'still') {
-                            $(this).attr("src", $(this).data("animate"));
-                            $(this).attr('data-state', 'animate'); 
-                        } else {
-                            $(this).attr("src", $(this).data("still"));
-                            $(this).attr("data-state", "still");
-                        }
-                    });  
                 };
+                        $(".anImg").click(function(){
+                            
+                            var state = $(this).attr('data-state');
+                            
+                            if (state === 'still') {
+                                $(this).attr("src", $(this).data("animate"));
+                                $(this).attr('data-state', 'animate'); 
+                            } else {
+                                $(this).attr("src", $(this).data("still"));
+                                $(this).attr("data-state", "still");
+                            }
+                        });  
                 
             });
         });
