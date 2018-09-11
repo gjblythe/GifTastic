@@ -18,6 +18,12 @@
   p, h1 {
     font-family: 'Roboto Mono', monospace;
     font-size: 25px;
+    margin: 10px 0px 10px 0px;
+  }
+
+  h2 {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold; 
   }
 
   #title {
