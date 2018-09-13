@@ -29,8 +29,8 @@ function start() {
     $("#button-display").append(
       "<button class='btn btn-primary'>" + button + "</button>"
     );
-    gifApp();
   };
+  gifApp();
 };
 
 function gifApp() {
