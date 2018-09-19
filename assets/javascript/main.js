@@ -115,4 +115,5 @@ $("#userSelected").click(function() {
     "<button class='btn btn-primary'>" + newButton + "</button>"
   );
   gifApp();
+  $("#select").val("");
 });
